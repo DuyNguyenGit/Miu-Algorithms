@@ -1,0 +1,2 @@
+Order them based on their complexity.
+2^n, 2^(n + 1), 2^(2n), 2^( 2^n )
