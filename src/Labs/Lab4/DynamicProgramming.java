@@ -49,7 +49,8 @@ public class DynamicProgramming {
 //        System.out.println(allSubsets(new int[]{2,3,5,7}, 10));//true
 //        System.out.println(allSubsets(new int[]{2,3,5,7}, 12));//true
 //        System.out.println(allSubsets(new int[]{2,3,5,7}, 7));//true
-        System.out.println(allSubsets(new int[]{2,3,5,4,7,8,9}, 7));//true
+        System.out.println(allSubsets(new int[]{3, 4, 7, 8}, 15));//true
+//        System.out.println(allSubsets(new int[]{2,3,5,4,7,8,9}, 7));//true
     }
 
     static int fib(int n) {
