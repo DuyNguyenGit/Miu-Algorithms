@@ -20,7 +20,7 @@ class ReverseLinkedListSolution {
         }
 
         // Recursively reverse the rest of the list
-        ListNode newHead = reverseList(head.next);
+        ListNode newHead = reverseListUsingRecursive(head.next);
 
         // Adjust the pointers
         head.next.next = head;  // Point the next node's next to the current node

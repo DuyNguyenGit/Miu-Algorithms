@@ -11,7 +11,8 @@ public class Sorting {
 //        printArray(selectionSort(arr));
 
         // Insertion Sort
-        int[] arr1 = {0, 100, 99, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 200};
+//        int[] arr1 = {0, 100, 99, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 200};
+        int[] arr1 = {12, 11, 13, 5, 6};
         printArray(insertionSort(arr1));
 
     }
